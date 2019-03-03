@@ -1,0 +1,22 @@
+﻿3.5.2 Calculation
+It is very common to compare the RTDs by their moments instead of
+ trying to compare their distributions. For this purpose three moments
+ are normally used. The first is the mean residence time. The second
+ moments commonly used is taken about the mean and is called the
+ variance or square of the standard deviation. Magnitude of this
+ moments is an indication of the spread of the distribution; the
+ greater the value of this moment, the greatr a distribution’s
+ spread or greater deviation from ideality. 
+
+4. Conclusions
+RTD experiment was carried out and concentration vs time data was
+ developed from this data, reactor was characterized by calculating
+ mean residence time, variance and dispersion number. C and E curve
+ was plotted. 
+References 
+    1. Octave Levenspiel, Chemical reaction engineering, 3rd ed., John 
+Wiley & Sons, NY, 2001, Page 260-265, 294-296.
+    2. H.Scott Fogler, Elements of chemical reaction engineering, 3rd
+ ed. PHI Pvt Ltd New Delhi, page 809-826.
+    3. Coulson &Richardson, Chemical Engineering Vol.- 3 4th ed .
+ Asian Books Pvt.Ltd, ND,1991, Page 87-92.

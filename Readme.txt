@@ -1,4 +1,5 @@
-First of all you have to make some necessary changes:
+First of all you have to make some necessary changes:\
+
 1)copy all the extension file in 'Hershey'sTextExtension' and paste it in the extensions folder of Inkscape (/usr/share/inkscape/extensions/) \n
 2)make necessary changes for directory locations in the python program - textShorteningandPassing.py (the comments will guide you)
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyProgram.iml" filepath="$PROJECT_DIR$/.idea/PyProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/Text For Hershey.iml" filepath="$PROJECT_DIR$/Text For Hershey.iml" />
     </modules>
   </component>

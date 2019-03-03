@@ -1,7 +1,9 @@
 import os
 import shutil
 
-os.chdir('location of folder/Manual Writer')                                      #add the location of the txt file where you pasted the text
+#the program manages the text input and passes the lines to Hershey's text extension
+
+os.chdir('/home/swayam/Desktop/hershey\'sMultilineInput/Manual Writer')           #add the location of the txt file where you pasted the text
 with open('stage-text input.txt', mode='r', encoding="ISO-8859-1") as file:       #input the name of the txt file
 
     with open('newfile.txt',mode='w', encoding="ISO-8859-1") as output:           #another text file which gets passed to the hershey's text extension
@@ -53,7 +55,7 @@ with open('tocopystring.txt', mode='r', encoding="ISO-8859-1") as stringFile:
         print(i1)
         #changing directory to write on the python file
 
-        os.chdir('/media/swayam/TOSHIBA EXT/MECHANICAL WRITER/hershey files for Text For Hershey (.py)')
+        os.chdir('/home/swayam/Desktop/hershey\'sMultilineInput/Hershey\'sTextExtension') #local directory containing the extension files
 
         with open('hershey.py', mode='r', encoding="ISO-8859-1") as file:
             j=[]
@@ -67,8 +69,9 @@ with open('tocopystring.txt', mode='r', encoding="ISO-8859-1") as stringFile:
         with open('hershey.py', mode='w', encoding="ISO-8859-1") as file2:
             for k1 in j:
                 print(k1,end='', file=file2)
-#print(j[63])
-#os.unlink('C:/Program Files/Inkscape/share/extensions/hershey.py')
-shutil.copyfile('/media/swayam/TOSHIBA EXT/MECHANICAL WRITER/hershey files for Text For Hershey (.py)/hershey.py','/usr/share/inkscape/extensions/hershey.py')
+
+
+#pasting the files in Inkscape extensions folder (run as administrator or root)
+shutil.copyfile('/home/swayam/Desktop/hershey\'sMultilineInput/Hershey\'sTextExtension/hershey.py','/usr/share/inkscape/extensions/hershey.py')
 
 
